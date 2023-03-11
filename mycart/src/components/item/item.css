@@ -1,0 +1,51 @@
+body{
+    background-color: #a45fdc;
+}
+
+.card-image{
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+   
+}
+.card-title{
+    margin-bottom: 10px;
+    font-size: x-large;
+    background-color: rgb(8, 122, 84);
+}
+.card-description{
+    background-color: rgb(159, 90, 5);
+    font: 1.2em sans-serif;
+}
+.price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   font-size: medium;
+   width: 40px;
+   height: 25px;
+   background-color: rgb(99, 222, 11);
+   -webkit-box-shadow:0 0 2px 1px #60227d80;
+  -moz-box-shadow:0 0 2px 1px #4f5e4080;
+  box-shadow: 0 0 2px 1px #85a86080;
+  border: 1px solid #d3fda6;
+}
+.price:hover{
+    cursor: pointer;
+background: #05a8b1;
+}
+.cart-button{
+    width: 100px;
+    height: 30px;
+    font: 1em sans-serif;
+    -webkit-box-shadow:0 0 2px 1px #1f149c80;
+    -moz-box-shadow:0 0 2px 1px #78a84480;
+    box-shadow: 0 0 2px 1px #57215b80;
+    border: 1px solid #6b199e;
+}
+.cart-button:hover{
+    cursor: pointer;
+    background: #d4d6cc;
+}
